@@ -6,7 +6,7 @@ from ktrain import text
 save_directory = 'C:/Users/HP/Desktop/Project_Deployment'
 predictor = ktrain.load_predictor(save_directory)
 
-st.title("BERT Model Prediction App")
+st.title("Email spam detection App")
 text_input = st.text_area("Enter text:", "")
 if st.button("Predict"):
     if text_input:
